@@ -1,0 +1,173 @@
+﻿*{
+    margin:0;
+    padding:0;
+    font-family: Times new Roman;
+  }
+#info{
+    width: 100%;
+    height: 100vh;
+    background-image: url(pro.jpg);
+    background-size: cover;
+}
+
+.img
+{
+	width:20%;
+	float: right;
+}
+.about
+{
+	margin-left:30px;
+}
+.info h1
+{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	padding-top:60px;
+	padding-left:10px;
+}
+nav{
+	height:10px;
+    background-color: #fff;
+    line-height: 20px;
+}
+
+nav ul{
+	float: left;
+   margin-right: 30px;
+   
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+	margin:20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 60px;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: #fff; 
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section h2 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #000;
+}
+
+section h3 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #000;
+}
+
+section h4 {
+    font-size: 1.5em;
+    text-align: left;
+    color: #000;
+}
+
+section h5 {
+    font-size: 1.5em;
+    text-align: left;
+    color: #000;
+}
+
+#Education{
+   color: #000;
+   font-family: Times new Roman;
+   font-size: 1.3em; 
+   background-image: url('edc.jpg');
+}
+
+#About{
+   color: yellow;
+   font-family: Times new Roman;
+   font-size: 1.3em;
+    background-image: url('about.jpg');
+}
+#contact
+li{
+	list-style-type: none;
+	margin:20px;
+	color:black;
+}
+  input[type=text],[type=mail]
+  {
+  width: 50%;
+  padding: 20px; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 16px; 
+  margin-bottom: 16px;
+font-size:12;  
+}
+textarea{
+	width: 100%; 
+  padding: 20px; 
+  border-radius: 8px; 
+  box-sizing: border-box; 
+  margin-top: 16px; 
+  margin-bottom: 16px; 
+}
+input[type=submit] {
+  background-color: #000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-size: 20;
+}
+
+input[type=submit]: {
+  background-color: gray;
+}
+
+.container {
+     position: absolute;
+box-sizing: border-box;
+  left: 0;
+  border: 9px solid #0006;
+  margin: 20px;
+  max-width: 300px;
+  padding: 26px;
+  background-color: #0005;
+ border-radius: 4px
+}
+
+table{
+            background-color: #fff;
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1em;
+        }
+        table thead tr{
+            border: 1px solid #000;
+            background-color: skyblue;
+        }
+        table td {
+            vertical-align: middle !important;
+            text-align: center;
+        }
+        table th, table td {
+            padding-top: 08px;
+            padding-bottom: 08px;
+        }
+        .table-bordered td, .table-bordered th {
+            border: 1px solid #333300;
+        }
